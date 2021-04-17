@@ -21,5 +21,17 @@ public class StoreAppHomePage {
             @FindBy(xpath = "//a[@class='login']")
     public WebElement signInButton;
 
+            @FindBy(xpath = "//a[@title='View my shopping cart']")
+    public WebElement cartButton;
+
+            @FindBy(xpath = "//div[@class='button-container']//a[@data-id-product='2']")
+    public WebElement blouseButton;
+
+            @FindBy(id = "add_to_cart")
+    public WebElement addToCartButton2;
+
+            @FindBy(xpath = "//span[@title='Continue shopping']")
+    public WebElement keepShopping;
+
         }
 

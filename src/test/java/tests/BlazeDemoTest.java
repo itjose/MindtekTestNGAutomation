@@ -21,7 +21,7 @@ public class BlazeDemoTest extends TestBase {
 
 
 
-    @Test
+    @Test(groups ={"regression", "smoke"})
     public void test(){
         driver.get(Configuration.GetProperty("URL"));
         //driver.findElement(By.xpath("//input[@type='submit']")).click();

@@ -20,7 +20,7 @@ public class BlazeDemoPriceTest extends TestBase {
     BlazeDemoFlightsPage blazeDemoFlightsPage = new BlazeDemoFlightsPage();
     //Test verifies all prices are below $1,000
 
-    @Test
+    @Test(groups = {"regression"})
     public void priceTest(){
 
 

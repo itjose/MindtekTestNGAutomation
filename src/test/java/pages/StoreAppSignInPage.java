@@ -18,4 +18,15 @@ public class StoreAppSignInPage {
 
     @FindBy(id = "SubmitCreate")
     public WebElement CreateAccountButton;
+
+    @FindBy(id= "email")
+    public WebElement emailSignIn;
+
+    @FindBy(id="passwd")
+    public WebElement passWordSignIn;
+
+    @FindBy(id="SubmitLogin")
+    public WebElement signInButton;
+
+
 }
