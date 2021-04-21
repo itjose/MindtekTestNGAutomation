@@ -11,7 +11,7 @@ public class Configuration {
     private static FileInputStream input;
 
     static{
-        String path = "/Users/anneconklelap/IdeaProjects/MindtekTestNGAutomation/src/test/resources/configurations/Configuration.properties";
+        String path = System.getProperty("user.dir")+"/src/test/resources/configurations/Configuration.properties";
         try {
             input = new FileInputStream(path);
             properties = new Properties();
